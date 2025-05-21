@@ -1,6 +1,5 @@
 mod error;
 mod hooks;
-mod test;
 mod utilities;
 mod version;
 

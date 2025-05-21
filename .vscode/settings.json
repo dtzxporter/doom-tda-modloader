@@ -1,0 +1,22 @@
+{
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.eol": "\n",
+    "[rust]": {
+        "editor.formatOnSave": true
+    },
+    "[toml]": {
+        "editor.formatOnSave": true
+    },
+    "rust-analyzer.inlayHints.enable": false,
+    "rust-analyzer.server.extraEnv": {
+        "CHALK_OVERFLOW_DEPTH": 250
+    },
+    "rust-analyzer.diagnostics.disabled": [
+        "macro-error"
+    ],
+    "rust-analyzer.procMacro.enable": true,
+    "evenBetterToml.formatter.columnWidth": 100,
+    "evenBetterToml.formatter.compactInlineTables": false
+}

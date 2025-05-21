@@ -1,0 +1,23 @@
+[package]
+name = "maykr"
+version = "1.0.2"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+porter-utils.workspace = true
+
+arc-swap.workspace = true
+minhook.workspace = true
+widestring.workspace = true
+windows-sys.workspace = true
+
+[build-dependencies]
+winres.workspace = true
+
+[package.metadata.winres]
+OriginalFilename = "maykr.dll"
+FileDescription = "MAYKR - Doom The Dark Ages Mod Loader"
+LegalCopyright = "Copyright © 2025 DTZxPorter"
